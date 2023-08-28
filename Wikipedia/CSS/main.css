@@ -1,0 +1,141 @@
+html {
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    font-size: 62.5%;
+    display: block;
+}
+
+body {
+
+    background-color: #fff;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Inter, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-size: 1.4rem;
+    line-height: 1.5;
+    margin: .4rem auto;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+main {
+    margin-top: 38px;
+    text-align: center;
+
+}
+
+main li {
+    list-style: none;
+    display: flex;
+    padding-left: 0;
+    text-decoration: none;
+}
+
+main .main-section {
+    margin: 0 auto;
+}
+
+main .main-section-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .main-section-container .main-section-left {
+    margin: 0 auto;
+
+    /* display: flex;
+    justify-content: flex-end; */
+
+}
+
+main .main-section-container .main-section-left ul {
+
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+main .main-section-container .main-section-left li {
+    height: 50px;
+    width: 150px;
+    padding: 10px;
+    display: block;
+
+    /* border: 1px solid #f2f2f2; */
+}
+
+main .main-section-container .main-section-left li:hover {
+    background-color: #f2f2f2;
+}
+
+main .main-section-container .main-section-left li a:first-of-type {
+    display: block;
+}
+
+main .main-section-container .main-section-left small a {
+    display: inline;
+    margin-top: 5px;
+}
+
+main .main-section-container .main-section-right {
+    margin: 0 auto;
+}
+
+main .main-section-container .main-section-right li {
+    height: 50px;
+    padding: 10px;
+    display: block;
+    border: 1px solid #f2f2f2;
+}
+
+main .main-section-container .main-section-right li a:first-of-type {
+    display: block;
+}
+
+main .main-section-container .main-section-right li .small {
+    display: inline;
+}
+
+main .main-section-container .main-section-center {
+    margin-top: 38px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+}
+
+
+main .main-central-textlogo {
+    font-family: Linux Libertine, Hoefler Text, Georgia, Times New Roman, Times, serif;
+    font-size: 30px;
+}
+
+main .main-central-textlogo-wrapper {
+    font-size: 3.2rem;
+    display: inline-block;
+    vertical-align: bottom;
+}
+
+main .main-central-textlogo-wrapper strong {
+    display: block;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+
+main .main-read-lang {
+    background-color: #c8ccd1;
+    display: block;
+    position: relative;
+    max-width: 460px;
+    width: 80%;
+    margin: -1.6rem auto 1.6rem;
+    height: 1px;
+    -webkit-transition: max-width .2s ease-out .4s;
+    -o-transition: max-width .2s ease-out .4s;
+    -moz-transition: max-width .2s ease-out .4s;
+    transition: max-width .2s ease-out .4s;
+}
