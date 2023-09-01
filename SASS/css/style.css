@@ -1,0 +1,256 @@
+/* Variables color */
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: #FFEFE7;
+}
+
+@media (max-width: 420px) {
+  nav {
+    height: 85px;
+  }
+  nav #icons {
+    display: none;
+  }
+  nav #icons-mobile {
+    display: flex;
+    padding-right: 30px;
+  }
+  nav #icons-mobile button {
+    background: none;
+    border-style: none;
+  }
+}
+nav {
+  width: 100%;
+  height: 85px;
+  display: flex;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  color: #7C6A0A;
+}
+nav p {
+  font-size: 25px;
+  padding-left: 30px;
+  width: 50%;
+  font-size: 50px;
+}
+nav .icons {
+  display: flex;
+  justify-content: flex-end;
+  width: 50%;
+  gap: 15px;
+  padding-right: 30px;
+}
+nav .icons button {
+  background: none;
+  border-style: none;
+}
+nav .icons-mobile {
+  display: none;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+article {
+  width: 90%;
+  min-width: 288px;
+  max-width: 500px;
+  color: #7C6A0A;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+article .info-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  gap: 25px;
+}
+article h1 {
+  font-size: 45px;
+  width: 100%;
+  padding: 0;
+  margin-top: 8px;
+  margin-bottom: 0;
+}
+article p {
+  font-size: 17px;
+  text-align: left;
+}
+article button {
+  background: none;
+  border-style: none;
+}
+article button {
+  border-style: none;
+  border-radius: 35px;
+  background-color: #Fa9500;
+  color: #7C6A0A;
+  width: 150px;
+  height: 40px;
+}
+article button:hover {
+  transform: scale(1.1);
+}
+article .image-section {
+  margin: 0 auto;
+}
+article .image-section img {
+  width: 100%;
+  border-radius: 19px;
+}
+
+section {
+  width: 100%;
+  height: auto;
+  padding: 0 20px;
+}
+section h2 {
+  font-size: 2em;
+  color: #7C6A0A;
+  padding-left: 20px;
+}
+
+.one-subSection, .location, .gallery, .about-us, .two-subSection {
+  width: 100%;
+  margin: 0 auto;
+  padding-bottom: 60px;
+}
+.one-subSection h2, .location h2, .gallery h2, .about-us h2, .two-subSection h2 {
+  font-weight: 300;
+  padding-bottom: 20px;
+}
+
+.card-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin: 0 auto;
+  gap: 13px;
+  height: auto;
+  border-radius: 5px;
+  overflow-x: scroll;
+  overscroll-behavior-x: contain;
+  scroll-snap-type: x proximity;
+}
+
+.product-card-section {
+  scroll-snap-align: center;
+  width: 200px;
+  height: auto;
+  background-color: #FFDAC6;
+  color: #7C6A0A;
+  padding: 20px;
+  border-radius: 8px;
+  margin: 0 auto;
+}
+.product-card-section .icon-card {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  padding-bottom: 12px;
+}
+.product-card-section .icon-card svg {
+  width: 80%;
+  height: 28px;
+}
+.product-card-section .product-image-section {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.product-card-section .product-image-section img {
+  width: 100%;
+  height: 30vh;
+  border-radius: 6px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.two-subSection .product-card-section {
+  background-color: #BABD8D;
+  color: white;
+}
+
+.about-us h2 {
+  font-weight: bold;
+}
+.about-us div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.about-us div div p {
+  width: 163px;
+  text-align: center;
+}
+
+.gallery {
+  width: 90%;
+  margin: 0 auto;
+}
+.gallery .image-gallery {
+  overflow-x: scroll;
+  overscroll-behavior-x: contain;
+  scroll-snap-type: x proximity;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.gallery .image-gallery img {
+  width: 200px;
+}
+.gallery .image-gallery img:hover {
+  transform: scale(1.1);
+}
+
+.location {
+  width: 90%;
+  margin: 0 auto;
+  padding: 0;
+  color: #7C6A0A;
+}
+.location img {
+  width: 100%;
+}
+
+footer {
+  background-color: #Fa9500;
+  color: #7C6A0A;
+  width: 100%;
+  height: auto;
+  padding: 20px;
+}
+footer h3 {
+  font-size: 30px;
+  margin-top: 0;
+  margin-bottom: 0;
+  color: whitesmoke;
+}
+footer .socialMedia {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}/*# sourceMappingURL=style.css.map */
