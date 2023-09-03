@@ -1,0 +1,21 @@
+html {
+    font-size: 65.5%;
+    font-family: 'DM Sans', sans-serif;
+
+}
+
+.contenedor {
+    border: 5px solid #e1bee7;
+    background-color: #fff1ff;
+    display: grid;
+    grid-template-columns: minmax(30px, 300px) 200px minmax(60px, 250px);
+    grid-template-rows: repeat(3, auto);
+
+}
+
+.item {
+    border: 5px solid #e1bee7;
+    font-size: 3rem;
+
+
+}
